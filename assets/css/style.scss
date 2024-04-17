@@ -1,6 +1,5 @@
-
-
 // Colors
+
 $primary: #e5261f;
 $primary-dark: #a01b16;
 $secondary: #f88379;
@@ -114,4 +113,9 @@ body {
     font-size: 16px;
     line-height: 1.3;
   }
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  height: 100%;
+
 }

@@ -2,16 +2,27 @@
   color: $primary;
   background-color: #ffffff;
   display: flex;
+  flex-flow: row;
   justify-content: space-between;
-  align-items: center;
+  justify-items: center;
+  width: 100%;
   // box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
   border-bottom: 1px solid $white-offset;
   padding: 10px 0px;
   .container {
     display: flex;
+    flex-flow: row;
+    width: 100%;
     justify-content: space-between;
-    align-items: center;
+    justify-items: center;
+    .logo {
+      display: flex;
+      flex-flow: row;
+      width: 50%
+  
+    }
   }
+  
   &.header-absolute {
     position: absolute;
     z-index: 10;
@@ -25,3 +36,5 @@
     }
   }
 }
+
+
